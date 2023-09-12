@@ -6,11 +6,13 @@
   "author": "Akib Jabed <a.jabed.bd@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
-    "express": "^5.0.0-alpha.8"
+    "express": "^5.0.0-alpha.8",
+    "mongoose": "^7.5.0",
+    "pino": "^8.15.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
@@ -19,6 +21,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.0",
+    "pino-pretty": "^10.2.0",
     "prettier": "^3.0.3",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.2"
