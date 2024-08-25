@@ -1,0 +1,44 @@
+.app {
+  text-align: center;
+}
+
+h1 {
+  font-size: 72px;
+  color: #0ccac4;
+  font-family: "Bigelow Rules";
+}
+
+.search-box {
+  border: none;
+  outline: none;
+  width: 150px;
+  padding: 10px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  background: #e8f1f1;
+}
+
+.card-list {
+  width: 85vw;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #95dada;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 25px;
+  flex: 1;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
